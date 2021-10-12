@@ -1,0 +1,248 @@
+/* ----------CSS for HOME Page---------- */
+
+*{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+header,nav,article,section,aside,footer{
+	display:block;
+}
+
+.clear{
+	clear:both;
+}
+
+body{
+	margin:0px;
+	background-image:url(pic/BackGround.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	cursor:defult;
+}
+
+.full{
+	width:1000px;
+	margin:0px auto;
+	height:auto;
+	background-color:#ffffff;
+	border:2px solid #000000;
+}
+
+.h{
+	background-color:#ffffff;
+	margin:0px;
+	padding:5px;
+	width:990px;
+	height:auto;
+	font-size:25px;
+	float:left;
+	border-radius:30px;
+}
+
+.top_nav{
+	float:left;
+	width:1000px;
+	background-color:#e0ffff;
+	border-bottom:2px #000000 solid;
+}
+
+.top_nav ul li{
+	float:left;
+	padding:24.8px 137px;
+}
+
+.left_side{
+	float:left;
+	width:635px;
+	border:2px solid;
+	border-radius:100px;
+	margin-left:15px;
+	margin-right:10px;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding:15px;
+	background-color:#b0c4de;
+	font-family:Footlight MT;
+	color:#ffffff;
+}
+
+.box{
+	width:450px;
+	height:auto;
+	-webkit-box-pack:center;
+}
+
+.item{
+	display:block;
+	height:100px;
+	width:100px;
+	float:left;
+	border:1px solid #000000;
+	margin:5px;
+	background:DeepSkyBlue;
+	text-align:center;
+	line-height:100px;
+	font-weight:600;
+	font-size:19px;
+	color:#000000;
+	-webkit-border-radius:10px;
+	-webkit-transition:-webkit-transform .50s, -webkit-border-radius .75s,color .50s,font-size .50s,background 2s,border .10s;
+}
+
+.item:hover{
+	-webkit-transform:rotate(350deg);
+	-webkit-border-radius:50px;
+	color:#ffffff;
+	font-size:21px;
+	background:#0000ff;
+	border:1px solid #ffffff;
+}
+
+.mainpage_aside_a{
+	float:right;
+	width:231px;
+	border:2px solid;
+	margin-left:5px;
+	margin-right:2px;
+	margin-top:35px;
+	margin-bottom:5px;
+	padding:15px;
+	background-color:#ffefd5;
+	font-family:Dolphian;
+}
+
+.mainpage_aside_b{
+	float:right;
+	width:231px;
+	border:2px solid;
+	margin:2px;
+	padding:15px;
+	background-color:#ffefd5;
+	font-family:Dolphian;
+}
+
+.page_footer{
+	clear:both;
+	font-family:Courier New;
+	border-top:2px solid #000000;
+	padding:20px;
+}
+
+
+/* ----------CSS for Sub Pages---------- */
+
+.input label{
+	/* float:left; */
+	width:100px;
+	font-size:16px;
+	color:#9400d3;
+	font-family:Tempus Sans ITC;
+	font-weight:600;
+}
+
+fieldset legend{
+	font-weight:600;
+	font-size:20px;
+	font-family:Tempus Sans ITC;
+}
+
+fieldset{
+	width:370px;
+	background-color:#00bfff;
+	border:2px solid #9400d3;
+	border-radius:10px;
+	padding:10px;
+	margin-left:10px;
+}
+
+/*BUTTON DESIGN*/
+
+.button{
+	background-color:#00008b;
+	border:2px solid #ffffff;
+	color:#ffffff;
+	font-size:20px;
+	font-family:Gabriola;
+	width:140px;
+	-webkit-transition:background-color 1s,border 1s;
+}
+.button:hover{
+	background-color:#8470ff;
+	border:2px solid #000000;
+}
+
+/*SUBPAGE MAIN SECTION*/
+
+.subpage_main_side{
+	float:left;
+	width:720px;
+	border:2px solid #ffffff;
+	border-radius:100px;
+	color:#000000;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding:15px;
+	padding-bottom:50px;
+	background-color:#b0c4de;
+	font-family:Footlight MT;
+}
+
+.pic_place{
+	float:left;
+	width:300px;
+	margin:5px;
+}
+
+.material{
+	float:left;
+}
+
+.ans{
+	color:#000000;
+	font-weight:bold;
+	font-size:16px;
+	font-family:Tempus Sans ITC;
+	
+}
+
+.result{
+	color:#0000cd;
+	font-weight:bold;
+	font-size:16px;
+	font-family:Tempus Sans ITC;
+}
+
+.mistake{
+	color:#ff0000;
+	font-family:Viner Hand ITC;
+}
+
+/* SUBPAGES ASIDE */
+
+.subpage_aside_a{
+	float:right;
+	width:192px;
+	border:2px solid;
+	margin-top:35px;
+	margin-bottom:2px;
+	margin-left:2px;
+	margin-right:2px;
+	padding:15px;
+	background-color:#ffefd5;
+	font-family:Dolphian;
+}
+
+.subpage_aside_b{
+	float:right;
+	width:202px;
+	border:2px solid;
+	margin:2px;
+	padding:10px;
+	background-color:#ffefd5;
+	font-family:Dolphian;
+}
